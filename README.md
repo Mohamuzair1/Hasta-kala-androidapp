@@ -6,11 +6,53 @@ Solution code for Android Basics with Compose.
 Introduction
 ------------
 
-This app is an Inventory tracking app. Demos how to add, update, sell, and delete items from the local database.
-This app demonstrated the use of Android Jetpack component [Room](https://developer.android.com/training/data-storage/room) database.
-The app also leverages [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel),
-[Flow](https://developer.android.com/kotlin/flow),
-and [Navigation](https://developer.android.com/topic/libraries/architecture/navigation/).
+# Hasta-Kala Shop
+
+Hasta-Kala Shop is a modern Android application developed to support local artisans and small craft businesses. The app helps users manage handmade products, monitor inventory, and track sales efficiently through a simple and attractive interface inspired by Indian traditional art and handicrafts.
+
+## Features
+
+* Product Management
+* Inventory Tracking
+* Sales Monitoring
+* User-Friendly Interface
+* Traditional Handcrafted Theme
+* Easy Navigation
+
+## Technologies Used
+
+* Android Studio
+* Java / Kotlin
+* XML
+* Firebase / SQLite (if used)
+
+## Purpose
+
+The main goal of this project is to digitally empower local artisans and help small businesses manage their handmade craft products more efficiently.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Mohamuzair1/hasta-kala-shop.git
+```
+
+2. Open the project in Android Studio.
+
+3. Build and run the application on an emulator or Android device.
+
+## Future Improvements
+
+* Online Payments
+* Order Tracking
+* Customer Accounts
+* Product Search and Filters
+* Cloud Database Integration
+
+## Author
+
+Developed by Mohamuzair1
 
 Pre-requisites
 --------------
