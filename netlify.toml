@@ -1,0 +1,11 @@
+# Netlify serves a static landing page for Hasta-Kala Shop.
+# The Android app itself is installed from an APK (e.g. GitHub Releases), not run on Netlify.
+[build]
+  publish = "netlify"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

@@ -1,0 +1,49 @@
+<!--
+  ~ Copyright (C) 2023 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string name="app_name">Hasta-Kala Shop</string>
+    <string name="attention">Attention</string>
+    <string name="back_button">Back</string>
+    <string name="delete">Delete</string>
+    <string name="delete_question">Are you sure you want to delete?</string>
+    <string name="no_item_description">Oops!\nNo crafts in the shop.\nTap + to add.</string>
+    <string name="edit_item_title">Edit Craft</string>
+    <string name="item">Craft</string>
+    <string name="item_detail_title">Craft Details</string>
+    <string name="item_entry_title">Add Craft</string>
+    <string name="item_name_req">Craft Name*</string>
+    <string name="item_price_req">Craft Price*</string>
+    <string name="no">No</string>
+    <string name="price">Price</string>
+    <string name="quantity_in_stock">Quantity in stock</string>
+    <string name="in_stock">%d in stock</string>
+    <string name="quantity_req">Quantity in Stock*</string>
+    <string name="save_action">Save</string>
+    <string name="sell">Sell</string>
+    <string name="yes">Yes</string>
+    <string name="required_fields">*required fields</string>
+    <string name="craft_color">Craft Color</string>
+    <string name="best_seller_dashboard_title">Best Seller Dashboard</string>
+    <string name="login_title">Login</string>
+    <string name="login_subtitle">Sign in to continue to your artisan inventory</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="secret_code">Secret Code</string>
+    <string name="login_action">Login</string>
+    <string name="register_action">Register</string>
+    <string name="register_subtitle">Create your account to continue to artisan inventory</string>
+    <string name="switch_to_register">New user? Register</string>
+    <string name="switch_to_login">Already registered? Login</string>
+</resources>

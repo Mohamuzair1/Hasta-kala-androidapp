@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Hasta-Kala Shop — micro-sales analytics for artisans. Android app." />
+  <title>Hasta-Kala Shop</title>
+  <style>
+    :root {
+      --cream: #fff8f0;
+      --sand: #f5e6d3;
+      --terracotta: #d4a574;
+      --brown: #8b4513;
+      --deep: #5d2f0f;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(180deg, var(--cream), var(--sand));
+      color: var(--deep);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #c88a53, #b4683a, #7a3e1e);
+      color: #fff;
+      padding: 2.5rem 1.25rem;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 0.5rem; font-size: clamp(1.5rem, 4vw, 2rem); letter-spacing: 0.05em; }
+    header p { margin: 0; opacity: 0.95; font-size: 1rem; }
+    main { max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+    .card {
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 8px 24px rgba(122, 62, 30, 0.12);
+      margin-bottom: 1.25rem;
+    }
+    .card h2 { margin: 0 0 0.75rem; font-size: 1.1rem; color: var(--brown); }
+    .card ul { margin: 0; padding-left: 1.25rem; }
+    .btn {
+      display: inline-block;
+      margin-top: 0.75rem;
+      padding: 0.65rem 1.25rem;
+      background: var(--terracotta);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .btn:hover { filter: brightness(1.05); }
+    .note { font-size: 0.9rem; color: #6b5344; margin-top: 1rem; }
+    footer { text-align: center; padding: 1rem; font-size: 0.85rem; color: #8c684d; }
+    code { background: #f0e6dc; padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hasta-Kala Shop</h1>
+    <p>Micro-sales analytics for artisans — Android app</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>About this site</h2>
+      <p>
+        This page is hosted on <strong>Netlify</strong>. Netlify serves static websites only.
+        The Hasta-Kala Shop <strong>Android app</strong> runs on phones and tablets — it is not executed on Netlify.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Install the app</h2>
+      <ol>
+        <li>Build an APK in Android Studio: <code>Build → Build Bundle(s) / APK(s) → Build APK(s)</code></li>
+        <li>Upload the APK to <a href="https://github.com/Mohamuzair1/Hasta-kala-androidapp/releases">GitHub Releases</a> (or share the file).</li>
+        <li>Replace the link below with your release asset URL, then redeploy this site.</li>
+      </ol>
+      <a class="btn" href="https://github.com/Mohamuzair1/Hasta-kala-androidapp/releases">Open Releases (add APK there)</a>
+      <p class="note">Optional: add a direct <code>href</code> on a second button to <code>.apk</code> once you publish a release.</p>
+    </div>
+    <div class="card">
+      <h2>Source code</h2>
+      <p>Repository: <a href="https://github.com/Mohamuzair1/Hasta-kala-androidapp">github.com/Mohamuzair1/Hasta-kala-androidapp</a></p>
+    </div>
+  </main>
+  <footer>Hasta-Kala Shop — static preview on Netlify</footer>
+</body>
+</html>
