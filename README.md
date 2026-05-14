@@ -30,6 +30,9 @@ Hasta-Kala Shop is a modern Android application developed to support local artis
 
 The main goal of this project is to digitally empower local artisans and help small businesses manage their handmade craft products more efficiently.
 
+##Live link:
+https://appetize.io/app/b_sabcm5tzyrful7v2blq52ayoma
+
 ## Installation
 
 1. Clone the repository:
